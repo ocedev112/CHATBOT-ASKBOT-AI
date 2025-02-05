@@ -53,7 +53,7 @@ from deepgram import(
 
 
 #function for converting or transcribing audio to text
-def audio_to_text(client, audio_path):
+def audio_to_text(audio_path):
     with open(audio_path, "rb") as audio_file:   
            transcript = client.audio.transcriptions.create(model= "whisper-large-v3-Turbo",file=audio_file) 
            print(transcript.text)  
