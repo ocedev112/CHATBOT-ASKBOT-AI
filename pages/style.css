@@ -61,6 +61,15 @@ button[kind="primary"] {
     .st-key-info{
         display: none;
     }
+    
+   .st-key-stop{
+    position: absolute;
+    top: 460px;
+    left: 115px;
+    z-index: 100000;
+    background-image: #181a9e;
+  
+   }
 }
 
 
