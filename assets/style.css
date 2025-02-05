@@ -137,17 +137,7 @@ body{
     overflow: hidden;
 }
 
-.st-key-voiceai::before{
-  
-    width: 20px;
-    content: ".";
-    text-align: center;
-    background: #181a9e;
-    position: absolute;
-    left: 52px;
-    padding: 1px 2px;
-    z-index: -200;
-}
+
 
 .st-emotion-cache-ke1f9q{
     width: 34px;
