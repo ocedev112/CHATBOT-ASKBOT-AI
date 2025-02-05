@@ -64,8 +64,8 @@ button[kind="primary"] {
     
    .st-key-stop{
     position: absolute;
-    top: 460px;
-    left: 115px;
+    top: 480px;
+    left: 90px;
     z-index: 100000;
     background-image: #181a9e;
   
