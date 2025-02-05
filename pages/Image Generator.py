@@ -29,7 +29,7 @@ st.subheader("Powered by Flux")
 prompt = st.text_input("Generate an Image")
 
 #LLM for generating images
-client = Together(api_key=os.getenv("TOGETHER_API_KEY "))
+client = Together(api_key="9e69fff99bc0746ded11efa211ed6054c071fe54e28a1c67764e5704ef7ddddd")
 
 
 st.divider()
