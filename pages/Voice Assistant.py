@@ -40,7 +40,7 @@ st.header("Use Voice Assitant Aura")
 
 #LLM for transcribing the audio and giving a resonse(Speech to Text, and LLM)
 client = Groq(
-    api_key=os.getenv("GROQ_API_key")
+    api_key="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"
 )
 
 
@@ -101,7 +101,7 @@ def text2speech(text_input):
     try:
         SPEAK_OPTIONS = {"text": text_input}
 
-        deepgram = DeepgramClient( api_key= os.getenv("DEEPGRAM_API_KEY"))
+        deepgram = DeepgramClient( api_key= "d83052233f1a43ecfb900301591a437b9b553db155a8d7aa2fc56798bd14db33")
     
 
         options = SpeakOptions(
