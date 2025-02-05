@@ -160,7 +160,7 @@ if voice:
     voice_file= "tovoice.mp3"
     with open( voice_file, "wb") as f:
         f.write(voice)
-        stt = audio_to_text(client, voice_file)
+        stt = audio_to_text (voice_file)
         response = generate_response(stt)
         file = text2speech(response)
         hide_audio = """
