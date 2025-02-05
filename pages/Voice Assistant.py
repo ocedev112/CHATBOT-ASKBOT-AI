@@ -54,7 +54,7 @@ from deepgram import(
 
 #function for converting or transcribing audio to text
 def audio_to_text(client, audio_path):
-    with open(audio_path) as audio_file:   
+    with open(audio_path, "rb") as audio_file:   
            transcript = client.audio.transcriptions.create(model= "whisper-large-v3-Turbo",file=audio_file) 
            print(transcript.text)  
            prompt = transcript.text
@@ -121,7 +121,7 @@ def text2speech(text_input):
 
 #autoplay the audio file after the text to speech model has evaluated it
 def autoplay_audio(file_path: str):
-   with open(file_path") as f:
+   with open(file_path,"rb") as f:
         data = f.read()
         b64 = base64.b64encode(data).decode()
         md = f"""
