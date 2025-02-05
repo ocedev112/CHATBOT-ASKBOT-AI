@@ -9,10 +9,9 @@
 
 .st-key-stop{
     position: absolute;
-    top: 447px;
+    top: 450px;
     left: 250px;
-   
-    
+    z-index: 100000;
     background-image: #181a9e;
   
 }
@@ -45,6 +44,23 @@ button[kind="primary"] {
     width: 100%;
     text-align: center;
     text-transform: uppercase;
+}
+
+.st-key-info{
+    position: absolute;
+    top: 90%;
+    
+}
+
+@media only screen and (max-width: 767px){
+    .st-key-info{
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px){
+    .st-key-info{
+        display: none;
+    }
 }
 
 
