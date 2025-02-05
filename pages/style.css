@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.st-emotion-cache-1dp5vir{
+    display: none;
+}
+
+
+.st-key-stop{
+    position: absolute;
+    top: 447px;
+    left: 250px;
+   
+    
+    background-image: #181a9e;
+  
+}
+
+.st-emotion-cache-ibvrkj{
+    background-image: #181a9e;
+}
+
+
+button[kind="primary"] {
+    background-color: #181a9e;
+}
+
+#image-generator{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+#powered-by-flux{
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+#image-analysis{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
