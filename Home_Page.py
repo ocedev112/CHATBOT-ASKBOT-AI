@@ -41,7 +41,7 @@ ImageAnalyzer = st.Page(
 filename = "output.wav"
 
 client = Groq(
-    api_key= "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"
+    api_key= os.getenv("GROQ_API_key")
 )
 
 #import css file
