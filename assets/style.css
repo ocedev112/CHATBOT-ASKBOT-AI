@@ -261,5 +261,8 @@ body{
     left: 13%;
 
     }
-}
+    
+    #use-voice-assitant-aura{
+        text-align: center;
+    }
 }
