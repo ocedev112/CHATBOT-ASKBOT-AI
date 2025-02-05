@@ -171,6 +171,7 @@ if voice:
         st.markdown(hide_audio, unsafe_allow_html=True)
         #audio played
         st.button("Stop response", key="stop", on_click=reset_chat, type="primary", help="stoping response clears history")
-        st.audio("output.mp3", format="audio/mp3", autoplay=True)
+        if st.button("play"):
+           st.audio("output.mp3", format="audio/mp3", autoplay=True)
         translation = audio_to_text( voice_file)
      
