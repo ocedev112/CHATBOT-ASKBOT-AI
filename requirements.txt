@@ -104,11 +104,11 @@ llama-parse==0.5.20
 llvmlite==0.44.0
 lomond==0.3.3
 marisa-trie==1.2.1
-
+markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 marshmallow==3.26.0
 matplotlib-inline==0.1.7
-
+mdurl==0.1.2
 mistune==3.1.1
 more-itertools==10.6.0
 mpmath==1.3.0
