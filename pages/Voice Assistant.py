@@ -172,5 +172,5 @@ if voice:
         #audio played
         st.button("Stop response", key="stop", on_click=reset_chat, type="primary", help="stoping response clears history")
         st.audio("output.mp3", format="audio/mp3", autoplay=True)
-        translation = audio_to_text(client, voice_file)
+        translation = audio_to_text( voice_file)
      
