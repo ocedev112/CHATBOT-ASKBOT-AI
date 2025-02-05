@@ -101,7 +101,7 @@ def text2speech(text_input):
     try:
         SPEAK_OPTIONS = {"text": text_input}
 
-        deepgram = DeepgramClient( api_key= os.getenv("DEEPGRAM_API_KEY"))
+        deepgram = DeepgramClient( api_key= "571d9d7c6e0f0a15a3b60377795dddfc89227a87"
     
 
         options = SpeakOptions(
