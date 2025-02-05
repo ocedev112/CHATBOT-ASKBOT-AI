@@ -40,7 +40,7 @@ st.header("Use Voice Assitant Aura")
 
 #LLM for transcribing the audio and giving a resonse(Speech to Text, and LLM)
 client = Groq(
-    api_key=os.getenv("GROQ_API_key")
+    api_key="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"
 )
 
 
