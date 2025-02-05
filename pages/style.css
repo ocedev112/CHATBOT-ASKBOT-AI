@@ -56,19 +56,20 @@ button[kind="primary"] {
     .st-key-info{
         display: block;
     }
-}
-@media only screen and (min-width: 768px){
-    .st-key-info{
-        display: none;
-    }
-    
-   .st-key-stop{
+    .st-key-stop{
 
     top: 480px;
     left: 90px;
 
   
    }
+}
+@media only screen and (min-width: 768px){
+    .st-key-info{
+        display: none;
+    }
+    
+   
 }
 
 
