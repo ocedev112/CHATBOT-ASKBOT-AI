@@ -41,7 +41,7 @@ if "height" not in st.session_state:
 #store different height of an image in a session state
 st.session_state.height = st.sidebar.selectbox("Select Resolution", [
    #all values must be a multiple of 16
-    [1024,768],[720,480],[640,360],[320,240]
+    [1024,768],[720,480],[640,368],[320,240]
 ], index=0)
 
 
